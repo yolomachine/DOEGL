@@ -1,0 +1,10 @@
+{
+  "direction": "B — Midnight Glow",
+  "userCorrection": "Rebuild as one real scene with independently generated assets, shape-clipped material textures and runtime shader moonlight. Do not cut assets from the concept render.",
+  "referenceRole": "Color, style and subject reference only; the concept image is not shipped or sampled at runtime.",
+  "manifests": ["artwork-buildings.json", "artwork-nature.json", "artwork-characters.json"],
+  "runtimeAssets": "dist/assets/rebuild/",
+  "rendering": "Independent complete alpha sprites, a continuous tiled ground, native aspect-ratio composition, separate material surface map, WebGL per-material shading and analytic runtime moonlight cone.",
+  "patterns": "Objects, foliage and light each have independent six-pattern selection and strength. Outlines and bright details remain undithered. Generated art has no baked dither or light cone.",
+  "animation": "Complete generated character frames share scale and ground anchors. Fence rails and actors share a foot-depth ordering. Bunny hop height never changes fence-side ordering."
+}

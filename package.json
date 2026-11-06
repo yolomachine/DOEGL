@@ -1,0 +1,10 @@
+{
+  "name": "department-of-extremely-good-luck",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check dist/simulation.js && node --check dist/app.js && node --check dist/life.js && node --check dist/dialogue.js && node --check dist/dither.js && node --check dist/scene.js && node --check dist/scene-assets.js && node --check dist/scene-layout.js && node --check dist/scene-screen.js && node --check dist/material-shader.js && node --test tests/*.test.mjs"
+  }
+}

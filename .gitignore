@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local garden previews and hosting state
+artifacts/
+.openai/
+*.log
+.env*

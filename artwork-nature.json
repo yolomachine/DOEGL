@@ -1,0 +1,193 @@
+{
+  "method": "built-in image_gen only; no crop or extraction from the render",
+  "reference": "artifacts/design-directions/b-midnight-glow.png",
+  "referenceRole": "Visual style and color reference only",
+  "assets": [
+    {
+      "id": "fir",
+      "file": "dist/assets/rebuild/fir.png",
+      "source": "C:\\Users\\gomenyuk-a\\.codex\\generated_images\\01a1b151-f5b5-7050-8d2a-af59619cdfbc\\exec-9ff1d9de-7925-4e14-af8a-c52087d17a32.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production 2D game sprite. Input image is STYLE REFERENCE ONLY for its Midnight Glow pixel-art palette, chunky pixels, camera and outlines. Generate an entirely new independent complete sprite, not a crop, extraction or collage from the reference. Crisp 16-bit pixel art, authored as if on a 128x128 logical pixel grid and enlarged with nearest-neighbor to 1024x1024. All edges must be hard stepped pixels, no blur, no antialiasing. Flat restrained solid shade clusters only. NO baked dithering, dot pattern, Bayer matrix, checkerboard, hatching, texture noise or gradients: runtime shaders will supply material texture. No text, no labels, no UI, no frame, no other objects. Transparent background with genuine alpha, 10% clear margin on all sides and no floor shadow or ground patch. Subject: one tall complete Nordic fir tree, approximately 60% image width and 80% image height, symmetrical but naturally varied silhouette. Five broad descending tiered angular boughs with pointed drooping branch tips and transparent negative gaps between some outer branches. Visible short central dark brown trunk at bottom, standing freely. Match the friendly night forest design in the reference: very dark navy outline (#101e33), shadow foliage (#12333d), mid foliage (#20574e), a few broad highlight clusters (#3c8062). Use those three foliage shade tones as coherent large regions, not scattered single pixels or dot clusters. Every outer branch and short trunk is fully visible. Center x512, trunk foot near y900. No moon, stars, grass, rocks, other trees, glow or surrounding scenery.",
+      "method": "built-in image_gen",
+      "referenceRole": "Style reference only; independently generated asset",
+      "reference": "artifacts/design-directions/b-midnight-glow.png",
+      "width": 1254,
+      "height": 1254,
+      "inspection": {
+        "alphaZero": 1026146,
+        "alphaOpaque": 2455,
+        "alphaPartial": 543915,
+        "alphaBounds": [
+          167,
+          81,
+          1086,
+          1185
+        ],
+        "anchor": [
+          626,
+          1185
+        ],
+        "visual": "Complete five-tier fir silhouette with short visible trunk; broad teal shade clusters; branch gaps are transparent."
+      }
+    },
+    {
+      "id": "shrub",
+      "file": "dist/assets/rebuild/shrub.png",
+      "source": "C:\\Users\\gomenyuk-a\\.codex\\generated_images\\01a1b151-f5b5-7050-8d2a-af59619cdfbc\\exec-4710a7c3-678b-4c10-8d43-e9fee15088f4.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production 2D game sprite. Input image is STYLE REFERENCE ONLY for its Midnight Glow pixel-art palette, chunky pixels, camera and outlines. Generate an entirely new independent complete sprite, not a crop, extraction or collage from the reference. Crisp 16-bit pixel art, authored as if on a 128x128 logical pixel grid and enlarged with nearest-neighbor to 1024x1024. All edges must be hard stepped pixels, no blur, no antialiasing. Flat restrained solid shade clusters only. NO baked dithering, dot pattern, Bayer matrix, checkerboard, hatching, texture noise or gradients: runtime shaders will supply material texture. No text, no labels, no UI, no frame, no other objects. Transparent background with genuine alpha, 10% clear margin on all sides and no floor shadow or ground patch. Subject: one complete rounded low woodland shrub for a Nordic midnight garden, approximately 75% image width and 48% image height, centered horizontally with base near y800. Five overlapping scalloped angular leaf masses and several tiny stepped outer leaf tips, with a few genuinely transparent silhouette gaps. No trunk visible. Very dark navy outline (#101e33), dark teal shadow (#12333d), emerald teal midtone (#20574e), muted green highlight (#3c8062). Exactly three coherent foliage shade tones; highlights are broad blocky masses, not speckle or dots. Friendly simple chunky silhouette like the bushes in the reference. NO background, grass, flowers, ground or cast shadow.",
+      "method": "built-in image_gen",
+      "referenceRole": "Style reference only; independently generated asset",
+      "reference": "artifacts/design-directions/b-midnight-glow.png",
+      "width": 1254,
+      "height": 1254,
+      "inspection": {
+        "alphaZero": 961653,
+        "alphaOpaque": 2326,
+        "alphaPartial": 608537,
+        "alphaBounds": [
+          62,
+          349,
+          1182,
+          1108
+        ],
+        "anchor": [
+          622,
+          1108
+        ],
+        "visual": "Rounded four-mass green shrub with broad shade clusters and small transparent negative gaps."
+      }
+    },
+    {
+      "id": "purple-shrub",
+      "file": "dist/assets/rebuild/purple-shrub.png",
+      "source": "C:\\Users\\gomenyuk-a\\.codex\\generated_images\\01a1b151-f5b5-7050-8d2a-af59619cdfbc\\exec-e69d55bf-81da-4d95-8f9a-35d5804aeb46.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production 2D game sprite. Input image is STYLE REFERENCE ONLY for its Midnight Glow pixel-art palette, chunky pixels, camera and outlines. Generate an entirely new independent complete sprite, not a crop, extraction or collage from the reference. Crisp 16-bit pixel art, authored as if on a 128x128 logical pixel grid and enlarged with nearest-neighbor to 1024x1024. All edges must be hard stepped pixels, no blur, no antialiasing. Flat restrained solid shade clusters only. NO baked dithering, dot pattern, Bayer matrix, checkerboard, hatching, texture noise or gradients: runtime shaders will supply material texture. No text, no labels, no UI, no frame, no other objects. Transparent background with genuine alpha, 10% clear margin on all sides and no floor shadow or ground patch. Subject: one complete rounded low woodland shrub for a Nordic midnight garden, approximately 75% image width and 48% image height, centered horizontally with base near y800. Five overlapping scalloped angular leaf masses and small stepped outer leaf tips. Dark navy outline (#101e33), deep indigo-purple shadow (#252746), muted violet midtone (#4c3c69), a few broad mauve highlight clusters (#705387). Exactly three foliage shade tones, composed as broad coherent areas, not scattered dots or speckling. Match the purple foreground bushes in the style reference, with strong simple shape readability and real transparent negative space around its silhouette. No trunk, flowers, ground, grass or cast shadow.",
+      "method": "built-in image_gen",
+      "referenceRole": "Style reference only; independently generated asset",
+      "reference": "artifacts/design-directions/b-midnight-glow.png",
+      "width": 1254,
+      "height": 1254,
+      "inspection": {
+        "alphaZero": 967974,
+        "alphaOpaque": 2262,
+        "alphaPartial": 602280,
+        "alphaBounds": [
+          46,
+          336,
+          1207,
+          1084
+        ],
+        "anchor": [
+          626,
+          1084
+        ],
+        "visual": "Rounded purple foliage mass with a stepped silhouette and broad shade clusters."
+      }
+    },
+    {
+      "id": "grass",
+      "file": "dist/assets/rebuild/grass.png",
+      "source": "C:\\Users\\gomenyuk-a\\.codex\\generated_images\\01a1b151-f5b5-7050-8d2a-af59619cdfbc\\exec-c64f0f3c-40f1-4bce-b4fc-9431976e8f85.png",
+      "prompt": "Use case: stylized-concept. Asset type: seamless tileable base-color texture for a 2D pixel-art game's dark teal grassy ground. Input image is STYLE REFERENCE ONLY; generate new game texture, do not crop the reference. Output square 1024x1024, authored as a 128x128 logical pixel tile enlarged 8x nearest-neighbor. Hard crisp pixel clusters, no blur. Orthographic straight-down ground texture covering every pixel, no perspective, no horizon, no border, no transparency. Very quiet flat deep muted teal base (#214c49), with approximately 14 widely spaced tiny angular grass tufts in restrained moss green (#5b7752), and approximately 12 small scattered dark teal shadow clusters (#193d40). Each grass tuft is only 3–5 logical pixels wide, tiny relative to the square. 90% of the tile is uniform unobtrusive base color. All four edges tile seamlessly; features at an edge wrap to the opposite edge. No lighting gradient, no vignette, no trees, flowers, rocks, dirt paths, fences, buildings or objects. No dots, Bayer pattern, checkerboard, hatching, dithering or noise. The shader will supply any material dithering at runtime. Match the quiet ground color of reference B without including its scene.",
+      "method": "built-in image_gen",
+      "referenceRole": "Style reference only; independently generated asset",
+      "reference": "artifacts/design-directions/b-midnight-glow.png",
+      "width": 1254,
+      "height": 1254,
+      "inspection": {
+        "alphaZero": 0,
+        "alphaOpaque": 1572516,
+        "alphaPartial": 0,
+        "alphaBounds": [
+          0,
+          0,
+          1253,
+          1253
+        ],
+        "edgeMeanRgbDifference": [
+          0.82855,
+          0.86736
+        ],
+        "edgeMaxRgbDifference": [
+          5,
+          3
+        ],
+        "visual": "Quiet flat teal base with sparse small angular tufts and dark grass marks; no baked pattern or scene objects."
+      }
+    },
+    {
+      "id": "path",
+      "file": "dist/assets/rebuild/path.png",
+      "source": "C:\\Users\\gomenyuk-a\\.codex\\generated_images\\01a1b151-f5b5-7050-8d2a-af59619cdfbc\\exec-fbc2ba2f-bfa5-457d-aa6a-4ca68e63c2a3.png",
+      "prompt": "Use case: stylized-concept. Asset type: seamless tileable base-color texture for warm golden ochre dirt footpaths in a 2D pixel-art game. Input image is STYLE REFERENCE ONLY; generate a new independent texture, do not crop or reproduce the scene. Square 1024x1024, authored like a 128x128 logical pixel tile enlarged 8x with nearest-neighbor. Orthographic straight-down material covering every pixel, no perspective, no horizon, no frame, no transparency. Main color warm subdued gold ochre (#d3a85e), subtle irregular flat shade clusters (#bc8f4f and #e2b96d), extremely quiet, only around 12 tiny 2–4 logical pixel flat earthy flecks over the entire tile. 90% uniform flat base color. No brick or paving pattern, no grass, no pebbles larger than 4 logical pixels, no outlines around texture flecks. All four edges tile seamlessly, edge marks wrap opposite edges. No gradient, vignette, noise, dithering, Bayer, checker, dots or woven patterns. No path borders: application geometry supplies the path shape. Match the warm paths from reference B without any scene objects.",
+      "method": "built-in image_gen",
+      "referenceRole": "Style reference only; independently generated asset",
+      "reference": "artifacts/design-directions/b-midnight-glow.png",
+      "width": 1254,
+      "height": 1254,
+      "inspection": {
+        "alphaZero": 0,
+        "alphaOpaque": 1572516,
+        "alphaPartial": 0,
+        "alphaBounds": [
+          0,
+          0,
+          1253,
+          1253
+        ],
+        "edgeMeanRgbDifference": [
+          1.2815,
+          0.79027
+        ],
+        "edgeMaxRgbDifference": [
+          4,
+          3
+        ],
+        "visual": "Quiet warm ochre base with sparse small flat earthy flecks, no border or baked pattern."
+      }
+    },
+    {
+      "id": "moon",
+      "file": "dist/assets/rebuild/moon.png",
+      "source": "C:\\Users\\gomenyuk-a\\.codex\\generated_images\\01a1b151-f5b5-7050-8d2a-af59619cdfbc\\exec-6184f8d0-4908-4d3c-a525-6f1fa9cd8cd3.png",
+      "prompt": "Use case: stylized-concept. Generate a NEW production pixel-art game asset. The reference image is only a style/palette reference. Subject: ONE COMPLETE SOLID FILLED GOLDEN FULL MOON, a closed circular disc with a face-free but COLORED OPAQUE interior. This must look like a solid golden coin, not a ring. The CENTER PIXEL AND EVERY PIXEL INSIDE THE MOON MUST BE OPAQUE PALE GOLD. Keep the entire face area filled with #ffe3a0; tiny blocky crater patches may be #f4d087. Sharp 16-bit pixel art, approximately 64x64 logical pixels enlarged with nearest neighbor. Outer edge is a clean stair-step circle, one flat gold shade #e6ba66 along lower-right rim only. All shapes are flat SOLID fills with hard pixel boundaries. No inner hole, no transparent areas inside the circle, no vignette, no gradient, no glow, no radiating light, no rays, no halo, no shadows, no noise, no dither, no patterns. No facial features, no text, no stars, no scenery. Place a 650px-diameter complete moon disc in the center of a square 1024x1024 image with transparent background OUTSIDE the disc only, plenty of clear padding. Keep transparency strictly outside the moon's circular silhouette. Inspired by the golden moon in the top-right of reference B but independently generated.",
+      "method": "built-in image_gen",
+      "referenceRole": "Style reference only; independently generated asset",
+      "reference": "artifacts/design-directions/b-midnight-glow.png",
+      "width": 1254,
+      "height": 1254,
+      "inspection": {
+        "alphaZero": 711019,
+        "alphaOpaque": 2053,
+        "alphaPartial": 859444,
+        "alphaBounds": [
+          106,
+          102,
+          1148,
+          1151
+        ],
+        "anchor": [
+          627,
+          627
+        ],
+        "centerRgba": [
+          249,
+          216,
+          149,
+          254
+        ],
+        "visual": "Solid filled pale gold moon with stepped circular outline and a few broad angular crater marks. No face, light rays, glow or transparent center."
+      }
+    }
+  ],
+  "alphaNote": "Transparent sprites contain genuine zero-alpha exterior and mostly alpha 253/254 opaque artwork, plus faint fringe pixels. For crisp game material masks, discard alpha below 0.5. No manual cleanup or image editing was applied; files are unchanged copies of successful generations.",
+  "visualNotes": "All final outputs visually inspected at generated resolution. No game-scale scene inspection was performed by this asset-only agent. The generated surfaces have slight high-resolution color variation inside broad flat clusters; no pre-baked Bayer/dot/weave textures are present.",
+  "rejected": [
+    {
+      "id": "moon-v1",
+      "source": "C:\\Users\\gomenyuk-a\\.codex\\generated_images\\01a1b151-f5b5-7050-8d2a-af59619cdfbc\\exec-0158f3d4-0233-437f-9e7e-2b4ad04a4c86.png",
+      "reason": "Hollow transparent center and unwanted soft inner halo; rejected and not copied into published assets.",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production 2D game sprite. Input image is STYLE REFERENCE ONLY for its Midnight Glow pixel-art palette, chunky pixels, camera and outlines. Generate an entirely new independent complete sprite, not a crop, extraction or collage from the reference. Crisp 16-bit pixel art, authored as if on a 128x128 logical pixel grid and enlarged with nearest-neighbor to 1024x1024. All edges must be hard stepped pixels, no blur, no antialiasing. Flat restrained solid shade clusters only. NO baked dithering, dot pattern, Bayer matrix, checkerboard, hatching, texture noise or gradients: runtime shaders will supply material texture. No text, no labels, no UI, no frame, no other objects. Transparent background with genuine alpha, 10% clear margin on all sides and no floor shadow or ground patch. Subject: one pale golden full moon DISC ONLY, with a clean slightly stepped pixel circular silhouette. Diameter 640 pixels on this 1024 square image, center exactly (512,512), generous fully transparent space around it. Warm pale cream-gold face (#ffe4a1), restrained solid golden edge shade (#efc775), two or three small broad barely darker crater-like angular shade clusters near the edge; mostly quiet flat face surface. Keep the central half of the disc completely blank so a face can be animated by the game. NO eyes, mouth, face, cheeks, stars, rays, glow, halo, cloud, light cone or background whatsoever. No blur or gradient, no dithering or pattern. The game will draw the facial expressions and light rays at runtime. Match the golden friendly moon color and chunky pixel outline style of reference B, but produce an original clean separated asset."
+    }
+  ]
+}

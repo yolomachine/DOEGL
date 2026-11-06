@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <base href="/">
+  <title>Running garden shader QA</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#101c2c;color:#f3e5c4;font:14px/1.5 system-ui,sans-serif}header{position:sticky;top:0;z-index:2;padding:18px 24px;background:#152639f5;border-bottom:1px solid #526975}h1{font-size:22px;margin:0 0 6px}#status{font-weight:700;margin:0}.pass{color:#a7e4bb}.fail{color:#ffaaa9}.running{color:#f3d797}main{padding:18px 24px;max-width:1500px;margin:auto}ol{padding-left:25px}li{margin:8px 0}li small{display:block;color:#b9cbd3;font-family:monospace;white-space:pre-wrap}.panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:24px 0}figure{margin:0;padding:12px;background:#1b3042;border:1px solid #3b5868;min-width:0}figcaption{font-weight:700;margin-bottom:8px}figure canvas{display:block;max-width:100%;height:auto;image-rendering:pixelated;background:#071120}figure p{font-size:12px;color:#b9cbd3;margin:8px 0 0}details{margin:20px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;color:#b9cbd3}#note{max-width:850px;color:#b9cbd3}
+  </style>
+  <script type="module" src="/__qa__/shader-qa.js"></script>
+</head>
+<body data-qa-status="running">
+  <header><h1>Garden shader and transparency QA</h1><p id="status" class="running" role="status">Loading the real game assets…</p></header>
+  <main>
+    <p id="note">This development-only page runs the actual WebGL shader, reads its GPU pixels, and compares every pixel against the real generated sprites and their material masks. It is not included in the published site.</p>
+    <ol id="results" aria-label="Test results"></ol>
+    <section class="panels" id="panels" aria-label="Source, mask and GPU result comparisons"></section>
+    <details><summary>Machine-readable results</summary><pre id="report"></pre></details>
+  </main>
+</body>
+</html>

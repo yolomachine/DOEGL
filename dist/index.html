@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#121c31"><meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="An entire tiny Swedish good-luck world. Twelve autonomous helpers, three chthonic gods with a fika habit, and absolutely unharmed bunnies.">
+  <title>The Department of Extremely Good Luck</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main aria-label="A living Swedish good-luck garden">
+    <canvas id="world" role="img" aria-label="An autonomous garden with twelve helpers bringing digital offerings to Cthulhu, Hastur and Yog-Sothoth. Swedish flags, a red fika cottage, a Dala horse and happy bunnies fill the scene. All progress, conversations and celebrations appear inside the world."></canvas>
+    <nav id="art-options" class="sr-only" aria-label="Garden appearance" hidden>
+      <button data-view="pixel" aria-pressed="false">Pixels</button><button data-view="ascii" aria-pressed="false">ASCII</button><button data-view="hybrid" aria-pressed="false">Hybrid</button><button data-view="dither" aria-pressed="true">Dithered pixels</button>
+      <div id="dither-options"><div role="group" aria-label="Texture layer"><button data-layer="objects" aria-pressed="true">Objects</button><button data-layer="foliage" aria-pressed="false">Trees and shrubs</button><button data-layer="light" aria-pressed="false">Moonlight</button></div><div id="dither-patterns" role="group" aria-label="Texture pattern"></div><label for="dither-strength">Dithering strength</label><input id="dither-strength" type="range" min="0" max="100" value="60"><button id="highlight-layer" aria-pressed="false">Highlight affected shapes</button></div>
+      <div id="ascii-options" hidden><label for="ascii-size">ASCII character size</label><input id="ascii-size" type="range" min="4" max="16" step="1" value="8"><label for="ascii-contrast">ASCII contrast</label><input id="ascii-contrast" type="range" min="50" max="200" step="5" value="115"></div>
+    </nav>
+    <p id="accessible-status" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+  <noscript><p>This tiny world needs JavaScript. Until then: Lycka till! You’ve got this. ♥</p></noscript>
+</body>
+</html>
